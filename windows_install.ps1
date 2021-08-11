@@ -1,7 +1,7 @@
 
 Write-Host "Downloading aura..."
 
-$url = "https://github.com/arghyagod-coder/GoLang/releases/latest/download/aura-windows-amd64.exe"
+$url = "https://github.com/arghyagod-coder/aura/releases/latest/download/aura-windows-amd64.exe"
 
 $dir = $env:USERPROFILE + "\.aura"
 $filepath = $env:USERPROFILE + "\.aura\aura.exe"

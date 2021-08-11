@@ -1,5 +1,5 @@
 echo "Downloading aura..."
-wget "https://github.com/arghyagod-coder/GoLang/releases/download/1.0.0/aura-linux-amd64" 
+wget "https://github.com/arghyagod-coder/aura/releases/download/1.0.0/aura-linux-amd64" 
 
 echo "Adding aura into PATH..."
 

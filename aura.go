@@ -61,6 +61,7 @@ func main() {
 				err := downloadFile(filename, url)
 				if err != nil {
 					fmt.Println("Unable to download file:", err)
+					return
 				}
 				fmt.Println("Downloaded: " + url)
 
@@ -68,6 +69,7 @@ func main() {
 				err := downloadFile(filename, url)
 				if err != nil {
 					fmt.Println("Unable to download file:", err)
+					return
 				}
 
 				fmt.Println("Downloaded: " + url)

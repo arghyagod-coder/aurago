@@ -23,19 +23,19 @@ Execute the following command as **Root User** (sudo su):
 ```bash
 # Bash Users
 
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/aura/linux/bash_install.sh > aura_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/aura/master/linux/bash_install.sh > aura_install.sh
 chmod u+x ./aura_install.sh
 bash ./aura_install.sh
 
 # Fish Users
 
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/aura/linux/fish_install.sh > aura_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/aura/master/linux/fish_install.sh > aura_install.sh
 chmod u+x ./aura_install.sh
 fish ./aura_install.sh
 
 # Zsh Users
 
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/aura/linux/zsh_install.sh > aura_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/aura/master/linux/zsh_install.sh > aura_install.sh
 chmod u+x ./aura_install.sh
 sh ./aura_install.sh
 ```
@@ -46,7 +46,7 @@ sh ./aura_install.sh
 Execute the following command as **Root User** (sudo su):
 
 ```bash
-curl https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/aura/mac_install.sh > aura_install.sh
+curl https://raw.githubusercontent.com/arghyagod-coder/aura/master/mac_install.sh > aura_install.sh
 chmod +x ./aura_install.sh
 bash ./aura_install.sh
 ```
@@ -55,7 +55,7 @@ bash ./aura_install.sh
 
 Open Powershell **as Admin** and execute the following command:
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/arghyagod-coder/GoLang/master/aura/windows_install.ps1 -UseBasicParsing).Content | powershell -
+Set-ExecutionPolicy Bypass -Scope Process -Force; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/arghyagod-coder/aura/master/windows_install.ps1 -UseBasicParsing).Content | powershell -
 ```
 
 To verify the installation of *aura*, open a new shell and execute `aura -v`. You should see output like this:

@@ -8,7 +8,7 @@ mkdir -p ~/.aura
 mv ./aura-linux-amd64 ~/.aura/aura
 chmod +x ~/.aura/aura
 echo "export PATH=$PATH:~/.aura" >> ~/.bashrc
-set -U fish_user_paths ~/.aura/ $fish_user_paths 
+fish -c "set -U fish_user_paths ~/.aura/ $fish_user_paths" 
 echo "export PATH=$PATH:~/.aura" >> ~/.zshrc
 echo "aura installation is completed!"
 echo "You need to restart the shell to use aura." 
